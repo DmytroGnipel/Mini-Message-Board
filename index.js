@@ -71,4 +71,4 @@ index.post("/new", (req, res) => {
   res.redirect("/");
 });
 
-index.listen(3000, () => console.log("i am running"));
+index.listen(10000, () => console.log("i am running"));
